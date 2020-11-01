@@ -80,7 +80,6 @@ interface IERC20 {
 
 // File: @openzeppelin\contracts\math\SafeMath.sol
 
-// SPDX-License-Identifier: MIT
 
 pragma solidity ^0.6.0;
 
@@ -242,7 +241,9 @@ library SafeMath {
 
 // File: contracts\CircuitV1Mainnet.sol
 
-pragma solidity ^0.6.12;
+pragma solidity ^0.6.12;
+
+
 
 interface ICirERC20 {
   function DEFAULT_ADMIN_ROLE (  ) external view returns ( bytes32 );
